@@ -35,7 +35,7 @@ body {
 }
 
 a {
-  	color: #800000;
+  	color: #45818e;
   	text-decoration: none;
 
     &:hover, &:focus {
@@ -47,7 +47,7 @@ b {
  	font-weight: normal;
  	background-color: #f2f2f2;
  	padding: 0 0.2rem 0.1rem 0.3rem;
- 	border: solid 1px #800000;
+ 	border: solid 1px #45818e;
  	color: black;
 }
 
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1.2rem 0 0.5rem 0;
   	font-weight: 500;
   	line-height: 1;
-  	color: #912222;
+  	color: #0b5394;
   	letter-spacing: -.025rem;
   	text-transform: capitalize;
 }
@@ -168,7 +168,7 @@ ol + h3 {
 
 hr {
   	border: 0;
-    border-top:.5px solid #808080;
+    border-top:.5px solid #0b5394;
   	margin: 1.5rem auto;
 }
 
@@ -234,7 +234,7 @@ time {
 }
 hr {
     border:0;
-    border-bottom: .5px solid #808080;
+    border-bottom: .5px solid #0b5394;
     margin-bottom: 2.5rem;
 }
 
