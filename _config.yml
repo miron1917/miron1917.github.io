@@ -1,7 +1,7 @@
 title: Miron1917
 # description:
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://miron1917.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://miron1917.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -15,8 +15,8 @@ nav:
  - name: "tags"
    href: "/tags"
 
-# - name: "feed"
-#   href: "/feed.xml"
+ - name: "feed"
+   href: "/feed.xml"
 
  - name: "contact"
    href: "/mailto:ivantheterrible@1530to1584.gov"
