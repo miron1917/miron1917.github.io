@@ -2,8 +2,8 @@ title: Miron1917
 # description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://miron1917.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+name: "Miron1917"
+author: Miron
 
 # Build settings
 remote_theme:  kxxvii/Kikofri
