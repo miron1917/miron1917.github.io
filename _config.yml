@@ -2,18 +2,18 @@ title: Miron1917
 # description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://miron1917.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-name: "Miron1917"
+name: "M i r o n 1917"
 author: Miron
 
 # Build settings
 remote_theme:  kxxvii/Kikofri
 
 nav:
- - name: "about"
-   href: "/about"
+ - name: "Über"
+   href: "/o"
 
- - name: "tags"
-   href: "/tags"
+ - name: "категории"
+   href: "/kategorien"
 
  - name: "contact"
    href: "/mailto:ivantheterrible@1530to1584.gov"
