@@ -7,3 +7,16 @@ github_username:  jekyll
 
 # Build settings
 remote_theme:  kxxvii/Kikofri
+
+nav:
+ - name: "about"
+   href: "/about"
+
+ - name: "tags"
+   href: "/tags"
+
+# - name: "feed"
+#   href: "/feed.xml"
+
+ - name: "contact"
+   href: "/mailto:ivantheterrible@1530to1584.gov"
