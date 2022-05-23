@@ -4,7 +4,7 @@ permalink: /o
 layout: pages
 ---
  
-##бомне
+# О мне
 
 он/его
 er/ihn
