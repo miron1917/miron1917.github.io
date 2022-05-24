@@ -1,7 +1,7 @@
 ---
 title: О
 permalink: /o
-layout: pages
+layout: nav
 ---
  
 ## Обо мне
