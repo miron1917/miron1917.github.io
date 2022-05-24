@@ -1,7 +1,7 @@
 ---
 title: О
 permalink: /o
-layout: default
+layout: pages
 pagin: false
 ---
  
