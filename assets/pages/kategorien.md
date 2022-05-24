@@ -1,7 +1,7 @@
 ---
 title: категории
 permalink: /kategorien
-layout: pages
+layout: nav
 ---
 
 <style>
