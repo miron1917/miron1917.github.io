@@ -3,19 +3,6 @@ title: категории
 permalink: /kategorien
 layout: pages
 ---
-<div class="container">
-    
-    <header class="header">
-            <h1 class="header-title">
-                <a href="{{ site.url }}/">{{ site.name }}</a>
-            </h1>
-            <nav class="header-nav">
-                {% for nav in site.nav %}
-                <a href="{{ site.url }}{{ nav.href }}">{{ nav.name }}</a>
-                {% endfor %}
-            </nav>
-        </header>
-   </div>
 
 <style>
 .tag-box{
