@@ -1,0 +1,31 @@
+{%- include head.html -%}
+
+<div class="container_post">
+    {%- include top_small.html -%}
+  <header class="header">
+            <h1 class="header-title">
+                <a href="{{ site.url }}/">{{ site.name }}</a>
+            </h1>
+            <nav class="header-nav">
+                {% for nav in site.nav %}
+                <a href="{{ site.url }}{{ nav.href }}">{{ nav.name }}</a>
+                {% endfor %}
+            </nav>
+        </header>
+
+    {%- comment -%}
+        See '/ofri' or '2019-03-07-whats-Kikofri.md'
+        for explanations.
+    {%- endcomment -%}
+
+    {% if content contains 'µ#' or 'µ;;' or 'µµ' -%}
+        {{- content
+            | replace: 'µ#', '<sup>[' | replace: '#µ', ']</sup>'
+            | replace: 'µ;;', '<b>' | replace: ';;µ', '</b>'
+            | replace: "µµ", "&emsp;" }}
+    {%- else -%}
+        {{- content -}}
+    {%- endif -%}
+</div>
+
+{%- include foot.html -%}
