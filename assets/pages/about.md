@@ -4,8 +4,8 @@ permalink: /o
 layout: pages
 ---
  
-# О мне
+## Обо мне
 
-он/его
-er/ihn
-he/him
+- он/его 
+- er/ihn
+- he/him
